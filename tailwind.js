@@ -5,7 +5,7 @@ tailwind.config = {
         goldText: '#A17C5E',
       },
       fontFamily: {
-        crimson: ['Crimson Text', 'serif'],
+        britney: ['Britney', 'serif'],
       },
       content: {
         'star': 'url("/assets/redstar.svg")',

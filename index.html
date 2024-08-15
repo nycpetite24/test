@@ -3,87 +3,183 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Petite Models</title>
+    <title>Petite Model Search</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet" />
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tailwind.js"></script>
+    <meta
+      name="description"
+      content="Petite Model Search, a model casting agency for petite models based in NYC. We specialize in trade shows, runways, catalogues, films, and commercials." />
+    <meta
+      property="og:description"
+      content="Petite Model Search, a model casting agency for petite models based in NYC. We specialize in trade shows, runways, catalogues, films, and commercials." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Petite Model Search" />
+    <meta property="og:site_name" content="Petite Model Search" />
+    <meta property="og:url" content="https://petitemodels.vercel.app/" />
   </head>
-  <body class="bg-black text-white">
-    <div class="flex flex-col justify-center mt-12 px-8">
-      <img src="assets/logo.png" alt="" width="400" />
-      <h1 class="text-red-500 text-4xl mt-4 text-center">NY Model Castings</h1>
-      <div>
-        <swiper-container class="mySwiper" navigation="true" loop="true" delay="1000">
-          <swiper-slide
-            ><img
-              src="https://s1.cdn.autoevolution.com/images/news/gallery/this-is-probably-the-best-spec-for-the-2023-porsche-911-gt3-rs_7.jpg"
-              alt="porsche911"
-              referrerpolicy="no-referrer"
-          /></swiper-slide>
-          <swiper-slide
-            ><img
-              src="https://s1.cdn.autoevolution.com/images/news/gallery/this-is-probably-the-best-spec-for-the-2023-porsche-911-gt3-rs_5.jpg"
-              alt="porsche911"
-              referrerpolicy="no-referrer"
-          /></swiper-slide>
-          <swiper-slide
-            ><img
-              src="https://s1.cdn.autoevolution.com/images/news/this-is-probably-the-best-spec-for-the-2023-porsche-911-gt3-rs-200668_1.jpg"
-              alt="porsche911"
-              referrerpolicy="no-referrer"
-          /></swiper-slide>
+  <body class="bg-black text-white flex justify-center">
+    <div class="flex flex-col justify-center items-center mt-12 px-8 w-full">
+      <img src="assets/logo.png" alt="logo" width="300" />
+      <h1 class="text-red-500 text-4xl md:text-6xl mt-4 text-center font-britney">
+        Petite Model Search
+      </h1>
+      <p class="my-4 text-xl text-center">
+        Trade Shows, Runways,<br />
+        Catalogues, Films, <br />Commercials
+      </p>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeBjxgBR7NSQksF6uSMVw-WzIiKIV2AwDjyO6pYHTwiZ_jMEA/viewform"
+        rel="noopener noreferrer"
+        target="_blank"
+        class="bg-red-500 text-white text-lg font-semibold px-4 py-2 rounded-lg hover:bg-red-600 transition-colors flex items-center gap-2"
+        ><span class="relative flex h-3 w-3"
+          ><span
+            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span
+          ><span class="relative inline-flex h-3 w-3 rounded-full bg-emerald-400"></span></span
+        >Apply Now</a
+      >
+      <div class="text-xl italic my-4">
+        <p>
+          Beginners ok <br />
+          No Exp. Necessary <br />
+          No nudity no lingerie
+        </p>
+        <p class="mt-4">
+          Females 5'2" - 5'7" <br />
+          Clothing Size 0-10<br />
+          Ages 18-27 <br />
+          Shoe Size 5-9
+        </p>
+      </div>
+      <div class="w-full">
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          navigation="true"
+          loop="true"
+          autoplay-delay="2000"
+          autoplay-disable-on-interaction="false">
+          <swiper-slide><img src="assets/model1.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model2.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model3.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model4.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model5.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model6.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model7.png" alt="model" /></swiper-slide>
         </swiper-container>
       </div>
-      <p class="mt-4 text-2xl text-center">Trade Shows, Runways, Catalogues, Films, Commercials</p>
-      <div class="mt-4">
-        <h2 class="text-red-500 text-2xl">Privacy Policy</h2>
-        <p class="max-w-[300px] mt-2">
-          Protecting your private information is our priority. This Statement of Privacy applies to
-          site, and NY Model Castings and governs data collection and usage. For the purposes of
-          this Privacy Policy, unless otherwise noted, all references to NY Model Castings include
-          www.nymodelcastings.com/. The NY Model Castings website is a Model Photography site. By
-          using the NY Model Castings website, you consent to the data practices described in this
-          statement.
-        </p>
+      <div class="text-xl my-4">
+        <ul>
+          <li class="before:content-['•'] flex gap-4">Film Extras</li>
+          <li class="before:content-['•'] flex gap-4">Speaking Roles</li>
+          <li class="before:content-['•'] flex gap-4">Music Videos</li>
+          <li class="before:content-['•'] flex gap-4">Commercials</li>
+          <li class="before:content-['•'] flex gap-4">Soap Operas</li>
+          <li class="before:content-['•'] flex gap-4">Game Showss</li>
+        </ul>
       </div>
-      <div class="flex flex-col gap-2">
-        <p class="text-red-500 text-2xl">Collection of your personal information</p>
-        <p class="">
-          In order to register for a session, NY Model Castings may collect personally identifiable
-          information, such as your:
-        </p>
-        <div class="flex justify-center">
-          <ul>
-            <li class="before:content-star flex gap-2">First and Last Name</li>
-            <li class="before:content-star flex gap-2">Email Address</li>
-            <li class="before:content-star flex gap-2">Phone Number</li>
-            <li class="before:content-star flex gap-2">City / Zipcode</li>
-            <li class="before:content-star flex gap-2">Portfolio Images</li>
-          </ul>
+      <div class="w-full">
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          navigation="true"
+          loop="true"
+          autoplay-delay="2000"
+          autoplay-disable-on-interaction="false">
+          <swiper-slide><img src="assets/model8.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model9.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model10.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model11.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model12.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model13.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/model14.png" alt="model" /></swiper-slide>
+        </swiper-container>
+      </div>
+      <div class="text-xl my-4">
+        <ul>
+          <li class="before:content-['•'] flex gap-4">Trade Shows</li>
+          <li class="before:content-['•'] flex gap-4">Shoe Shows</li>
+          <li class="before:content-['•'] flex gap-4">Toy Fair</li>
+          <li class="before:content-['•'] flex gap-4">Coterie</li>
+          <li class="before:content-['•'] flex gap-4">Print Ads</li>
+          <li class="before:content-['•'] flex gap-4">Catalogues</li>
+        </ul>
+      </div>
+      <div class="w-full">
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          navigation="true"
+          loop="true"
+          centered-slides="true"
+          autoplay-delay="2000"
+          autoplay-disable-on-interaction="false">
+          <swiper-slide><img src="assets/b1.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/b2.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/b3.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/b4.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/b5.png" alt="model" /></swiper-slide>
+          <swiper-slide><img src="assets/b6.png" alt="model" /></swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="mb-12 mt-8 px-8 lg:px-20 gap-4 flex flex-col">
+        <div>
+          <h2 class="text-red-500 text-xl">Privacy Policy</h2>
+          <p>
+            Protecting your private information is our priority. This Statement of Privacy applies
+            to site, and Petite Model Search and governs data collection and usage. For the purposes
+            of this Privacy Policy, unless otherwise noted, all references to Petite Model Search.
+            The Petite Model Search website is a Model Photography site. By using the Petite Model
+            Search website, you consent to the data practices described in this statement.
+          </p>
         </div>
-        <p>
-          We do not collect any personal information about you unless you voluntarily provide it to
-          us. However, you may be required to provide certain personal information to us when you
-          elect to register / sign up.
-        </p>
-      </div>
-      <div class="flex flex-col gap-1">
-        <h2 class="text-red-500 text-2xl">Sharing Information with Third Parties</h2>
-        <p>
-          NY Model Castings does not sell, rent or lease its customer information or customer lists
-          to third parties. NY Model Castings may disclose your personal information, without
-          notice, if required to do so by law or in the good faith belief that such action is
-          necessary to: (a) conform to the edicts of the law or comply with legal process served on
-          Official Models or the site; (b) protect and defend the rights or property of NY Model
-          Castings; and/or (c) act under exigent circumstances to protect the personal safety of
-          users of NY Model Castings, or the public.
-        </p>
+        <div>
+          <p class="text-red-500 text-xl">Collection of Your Personal Information</p>
+          <p>
+            In order to register for a session, Petite Model Search may collect personally
+            identifiable information, such as your:
+          </p>
+          <div class="ml-8 my-4">
+            <ul>
+              <li class="before:content-star flex gap-2">First and Last Name</li>
+              <li class="before:content-star flex gap-2">Email Address</li>
+              <li class="before:content-star flex gap-2">Phone Number</li>
+              <li class="before:content-star flex gap-2">City / Zipcode</li>
+              <li class="before:content-star flex gap-2">Portfolio Images</li>
+            </ul>
+          </div>
+          <p>
+            We do not collect any personal information about you unless you voluntarily provide it
+            to us. However, you may be required to provide certain personal information to us when
+            you elect to register / sign up.
+          </p>
+        </div>
+        <div>
+          <h2 class="text-red-500 text-xl">Sharing Information with Third Parties</h2>
+          <p>
+            Petite Model Search does not sell, rent or lease its customer information or customer
+            lists to third parties. Petite Model Search may disclose your personal information,
+            without notice, if required to do so by law or in the good faith belief that such action
+            is necessary to: (a) conform to the edicts of the law or comply with legal process
+            served on Official Models or the site; (b) protect and defend the rights or property of
+            Petite Model Search; and/or (c) act under exigent circumstances to protect the personal
+            safety of users of Petite Model Search, or the public.
+          </p>
+        </div>
+        <a
+          href="mailto:nycpetitemodelsearch@gmail.com"
+          class="text-xl text-center font-semibold hover:underline"
+          >nycpetitemodelsearch@gmail.com
+        </a>
       </div>
     </div>
   </body>
